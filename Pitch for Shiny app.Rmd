@@ -1,0 +1,40 @@
+---
+title: "Pitch for app"
+author: "Amandine Ligot"
+date: "3 december 2018"
+output: ioslides_presentation
+---
+
+
+## Motivation
+
+As a chemist it is some time important to know about the relationship between the vapor pressure of Mercury (in mm) and the temperature
+This app enables the user to choose a model in order to fit the evolution of pressure in function of temperature.
+
+## Data
+
+The data can be loaded from the Pressure dataset. It contains 19 rows.
+
+```{r}
+head(pressure)
+```
+
+## The data in image
+
+```{r}
+plot(pressure$temperature, pressure$pressure, 
+     xlab = "Temperature in degC", ylab = "Pressure (in mm)")
+```
+
+
+## The App
+The app enables the user to compare two models for the pressure in function of the temperature.
+The models can be linear but also quadratic up to degree 4 (that is to say temperature^3). After choosing the type of model that will be fitted, the user should choose a value of temperature for which the pressure will be calculated.
+And then, you just have to click on Submit.
+
+It can be found on [Shiny]() 
+
+The ui.R and server.R files can be found on [Github](https://github.com/AmandineLigot/data-product-assignement.git) 
+
+
+
