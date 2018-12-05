@@ -1,0 +1,13 @@
+name: DataProductAssignement
+title: DataProductAssignement
+username:
+account: amandineligot
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 605139
+bundleId: 1743189
+url: https://amandineligot.shinyapps.io/DataProductAssignement/
+when: 1544031912.1382
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: documentatio_shiny_app.html|Pitch for Shiny app.Rmd|Pitch_for_Shiny_app.html

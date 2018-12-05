@@ -1,0 +1,16 @@
+---
+title: "Documentation Shiny App"
+author: "Amandine Ligot"
+date: "5 december 2018"
+output: html_document
+---
+
+This document is to explain how my app works.
+
+First of all this app looks at the dataset called Pressure. It can be downloaded from R.
+
+The aim is then to generate two models and retrieve the predicted value for the pressure for a chosen value of temperature.
+
+So the user should first choose the type of model he/she would like to look at. The user can choose between a linear model (polynomial model of degree 1) or a polynomial model (quadratic,...). This choice has to be made for two models. 
+Then the user should choose for which temperature, he/she would like to know the pressure.
+After everything is made, the user just has to click on the button Submit and the two models will be shown on the graph as well as the predicted values for the pressure for the two chosen models.
